@@ -1,0 +1,28 @@
+img {
+    width: 55px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.title {
+    font-size: medium;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.subtitle {
+    font-size: x-small;
+    margin-top: -15px;
+    font-style: italic;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.bold {
+    font-style: bold;
+}
