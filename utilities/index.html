@@ -24,7 +24,7 @@
 
   // Map each file to a fetch Promise
   const fetchPromises = jsonFiles.map(file => 
-    fetch(`./jsons/${file}`).then(res => res.json())
+    fetch(`utilities/jsons/${file}`).then(res => res.json())
   );
 
   // Wait for all fetches to finish
