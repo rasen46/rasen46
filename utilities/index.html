@@ -39,19 +39,21 @@
         .trim();
 
       card.innerHTML = `
-        <div class="json-preview">
-          <div>
-            <strong>${data.title || 'No Title'}</strong>
-            <div>${data.description || 'No description'}</div>
-          </div>
-          <div>
-            <button onclick="toggleExpand(this)">View</button>
-          </div>
-        </div>
-        <div class="json-expanded" style="display:none;">
-          <pre>${formattedData}</pre>
-        </div>
-      `;
+  <div class="json-preview">
+    <div>
+      <strong>${data.title || 'No Title'}</strong>
+      <div>${data.description || 'No description'}</div>
+    </div>
+    <div>
+      <button onclick="toggleExpand(this)">View</button>
+    </div>
+  </div>
+  <div class="json-expanded" style="display:none;">
+    <pre>${formattedData}</pre>
+    <button onclick="copyJson(this)">Copy</button>
+  </div>
+`;
+
 
       container.appendChild(card);
     });
@@ -65,6 +67,18 @@
     expanded.style.display = isVisible ? 'none' : 'block';
     button.textContent = isVisible ? 'View' : 'Hide';
   }
+
+  function copyJson(button) {
+  const pre = button.closest('.json-card').querySelector('pre');
+  const text = pre.innerText;
+
+  navigator.clipboard.writeText(text).then(() => {
+    button.textContent = 'Copied!';
+    setTimeout(() => button.textContent = 'Copy', 2000);
+  }).catch(err => {
+    console.error('Failed to copy JSON:', err);
+  });
+}
 </script>
 
 </body>
