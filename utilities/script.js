@@ -15,7 +15,7 @@ const container = document.querySelector(".card-list");
 
 // get jsons
 const fetchPromises = jsonFiles.map(file => 
-  fetch(`./jsons/${file}`).then(res => res.json())
+  fetch(`utilities/jsons/${file}`).then(res => res.json())
 );
 
 Promise.all(fetchPromises)
@@ -112,3 +112,4 @@ function copyData(button) {
       alert("Failed to copy data!");
     });
 }
+
