@@ -1,6 +1,7 @@
 {
   "title": "rasen's fast flags v1.1",
   "description": "fixes some issues with things i guess",
+  "cata_class": "rasen",
   "data": {
   "FLogNetwork": "7",
   "FFlagHandleAltEnterFullscreenManually": "False",

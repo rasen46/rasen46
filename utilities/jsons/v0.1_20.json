@@ -1,6 +1,7 @@
 {
     "title": "rasen fast flags v0.1_20",
     "description": "old",
+    "cata_class": "rasen",
     "data": {
   "FLogNetwork": "7",
   "FIntRenderShadowIntensity": "0",

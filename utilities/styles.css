@@ -1,11 +1,113 @@
-.json-card {
-    border: 1px solid #999;
-    padding: 10px;
-    margin: 10px;
-    width: 400px;
-    border-radius: 8px;
-    background-color: #f2f2f2;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+/* Reset & base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 600px;
+  max-width: 90%;
+}
+
+/* Title & Description */
+.title {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 8px 14px;
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tab:hover {
+  background-color: #d1d5db;
+}
+
+.tab.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Cards */
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn,
+.copy-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.view-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #2563eb;
+}
+
+.copy-btn {
+  background-color: #e5e7eb;
+  color: #333;
+}
+
+.copy-btn:hover {
+  background-color: #d1d5db;
 }
 
 .json-preview {
@@ -27,24 +129,3 @@
     font-family: monospace;
     font-size: 12px;
 }
-
-strong {
-    font-family: Arial, sans-serif;
-    font-size: medium;
-}
-
-div {
-    font-family: Arial, sans-serif;
-    font-size: small;
-}
-
-h1 {
-    font-family: Arial, sans-serif;
-}
-
-button {
-    padding: 4px 8px;
-    cursor: pointer;
-
-}
-

@@ -1,6 +1,7 @@
 {
     "title": "rasen's fast flags v1_beta",
     "description": "beta version of v1, unstable",
+    "cata_class": "rasen",
     "data": {
   "FFlagDebugGraphicsPreferD3D11": "True",
   "FFlagEnableFPSAndFrameTime": "True",

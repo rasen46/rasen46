@@ -1,6 +1,7 @@
 {
     "title": "rasen fast flags v0.2",
     "description": "old and bloated as hell",
+    "cata_class": "rasen",
     "data": {
   "FFlagDebugGraphicsPreferD3D11": "True",
   "DFIntServerBandwidthPlayerSampleRate": "2147465500",
