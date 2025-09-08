@@ -69,7 +69,6 @@
   "FIntOpenTelemetryScheduleDelayMillis": "2147483647",
   "DFStringTelemetryV2Url": "0.0.0.0",
   "FIntRuntimeMaxNumOfSchedulers": "1000000",
-  "DFStringPerformanceControlDeviceMemoryBufferConfig": "{\u0022memory_bucket\u0022:[{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0},{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0},{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0}]}",
   "FFlagAvoidUnnecessaryQuadtreeLock": "True",
   "DFIntMaxProcessPacketsStepsAccumulated": "7",
   "DFIntShapecastMaxSize": "512",
@@ -85,4 +84,5 @@
   "FFlagRenderDynamicResolutionScale12": "true",
   "FFlagTaskThreadUsesRuntime2": "True"
 }
+
 }
