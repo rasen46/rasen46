@@ -70,7 +70,6 @@
   "FIntRakNetDatagramMessageIdArrayLength": "256",
   "FLogRobloxTelemetry": "0",
   "FIntVertexSmoothingGroupTolerance": "0",
-  "DFStringPerformanceControlDeviceMemoryBufferConfig": "{\u0022memory_bucket\u0022:[{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0},{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0},{\u0022maxsize\u0022:0,\u0022reservePct\u0022:0.0,\u0022reserveMB\u0022:0}]}",
   "FFlagGameBasicSettingsFramerateCap5": "False",
   "DFIntMaxProcessPacketsJobScaling": "5000000",
   "DFIntShapecastMaxSize": "512",
@@ -81,4 +80,5 @@
   "FIntSmoothMouseSpringFrequencyTenths": "100",
   "FIntRuntimeMaxNumOfSchedulers": "1000000"
 }
+
 }
