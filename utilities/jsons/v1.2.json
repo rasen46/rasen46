@@ -1,6 +1,6 @@
 {
   "title": "rasen's fast flags v1.2",
-  "description": "fixes issues and improves fps by 100-300 fps",
+  "description": "improves framerate by a bit",
   "cata_class": "rasen",
   "data": {
   "FLogNetwork": "7",
