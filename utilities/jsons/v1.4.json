@@ -1,6 +1,6 @@
 {
     "title": "rasen's fast flags v1.4",
-    "description": "removed invalid fast flags and added a couple of new ones",
+    "description": "cleaned up list, and added some improvements",
     "cata_class": "rasen",
     "data": {
   "FFlagRenameFriendsToConnectionsFriendsPage": "False",
