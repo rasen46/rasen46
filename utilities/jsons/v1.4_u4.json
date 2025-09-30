@@ -1,1 +1,18 @@
-
+{    
+  "title": "rasen's fast flags v1.4 u4",
+  "description": "roblox removed 99% fast flags i guess so heres a list that works with the current fast flag restrictions, which i think might increase preformance on low end devices i guess",
+  "cata_class": "rasen",
+  "data": {
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "225",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "175",
+  "FIntFRMMaxGrassDistance": "20",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "500",
+  "FIntFRMMinGrassDistance": "0",
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "FIntDebugForceMSAASamples": "1",
+  "DFIntTextureQualityOverride": "3",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "375"
+}
+}
