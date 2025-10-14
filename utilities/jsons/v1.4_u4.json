@@ -1,18 +1,6 @@
 {    
-  "title": "rasen's fast flags v1.4 u4 (ignore this read desc if u want to know how to have fast flags again, i guess)",
-  "description": "just go in C:/Users/YOUR_USER_FOR_PC_HERE/AppData/Local/Roblox/ClientSettings (the / should be the other slash (i cant use it cuz json get invaildated variant), and then paste ur fast flags inside IxpSettings.json and save.",
+  "title": "not a fast flags list update!",
+  "description": "click view on how to use fast flags",
   "cata_class": "rasen",
-  "data": {
-  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "225",
-  "DFIntCSGLevelOfDetailSwitchingDistance": "175",
-  "FIntFRMMaxGrassDistance": "20",
-  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "500",
-  "FIntFRMMinGrassDistance": "0",
-  "FFlagDebugGraphicsPreferD3D11": "True",
-  "FIntDebugForceMSAASamples": "1",
-  "DFIntTextureQualityOverride": "3",
-  "FFlagHandleAltEnterFullscreenManually": "False",
-  "DFFlagTextureQualityOverrideEnabled": "True",
-  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "375"
-}
+  "data": {"to be able to use fast flags (again) you need to go in C:\\Users\\rasen46\\AppData\\Local\\Roblox\\ClientSettings\nthere should be a IxpSettings.json file inside, which allows you to use fast flags\nif it does not appear, just create one and paste ur fast flags in there."}
 }
