@@ -2,8 +2,11 @@
   "title": "not a fast flags list update!",
   "description": "click view on how to use fast flags",
   "cata_class": "rasen",
-  "data": {"step 1": "to be able to use fast flags (again) you need to go in C:\\Users\\ur_pc_name\\AppData\\Local\\Roblox\\ClientSettings",
+  "data": {
+    "step 1": "to be able to use fast flags (again) you need to go in C:\\Users\\ur_pc_name\\AppData\\Local\\Roblox\\ClientSettings",
     "step 2": "there should be a IxpSettings.json file inside, which allows you to use fast flags by pasting ur fast flags in there",
     "step 3, optional": "if it does not appear, just create one and paste ur fast flags in there.",
-    "reminder": "my fast flags will not be maintained anymore"}
+    "step 4 optional": "you can set the fast flags list to be read only by going into the file properties (this could prevent Roblox reverting fast flags.",
+    "reminder": "my fast flags will not be maintained anymore"
+  }
 }
