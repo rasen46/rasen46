@@ -1,5 +1,6 @@
 // configs
 const jsonFiles = [
+  'v1.5.json',
   'v1.4_u4.json',
   'v1.4_u3.json',
   'v1.4_u2.json',
@@ -21,7 +22,7 @@ const container = document.querySelector(".card-list");
 
 // get jsons
 const fetchPromises = jsonFiles.map(file => 
-  fetch(`utilities/jsons/${file}`).then(res => res.json())
+  fetch(`./jsons/${file}`).then(res => res.json())
 );
 
 Promise.all(fetchPromises)
@@ -33,9 +34,7 @@ Promise.all(fetchPromises)
 
       const innerData = data.data || {};
       const formattedData = JSON.stringify(innerData, null, 2)
-        .slice(1, -1)
-        .trim();
-
+      
       card.innerHTML = `
         <div class="json-preview">
           <div>
