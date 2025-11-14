@@ -22,7 +22,7 @@ const container = document.querySelector(".card-list");
 
 // get jsons
 const fetchPromises = jsonFiles.map(file => 
-  fetch(`utilities/jsons/${file}`).then(res => res.json())
+  fetch(`./jsons/${file}`).then(res => res.json())
 );
 
 Promise.all(fetchPromises)
